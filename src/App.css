@@ -41,11 +41,12 @@ h1 {
 
 .fanMaker {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: rgb(255, 255, 255)
+    color: rgb(255, 255, 255);
+    padding: 5px 0;
 }
 
 .locked {
@@ -67,7 +68,7 @@ h1 {
     font-weight: bold;
     font-size: 1.3em;
     border: 2px solid rgb(233, 141, 210);
-    box-shadow: 7px 10px 3px rgb(255, 196, 240);
+    box-shadow: 10px 7px 3px rgb(255, 196, 240);
     color: #fff;
     outline: none;
 }

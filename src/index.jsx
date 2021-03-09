@@ -7,11 +7,11 @@ import Cookie from './components/Cookie';
 import SideBar from './components/SideBar';
 import Buildings from './components/Buildings';
 
-const init = (fans = 0, fansPerSec = 0, totalFans = 0) => {
+const init = (init) => {
     return {
-        fans: fans,
-        fansPerSec: fansPerSec,
-        totalFans: totalFans
+        fans: init,
+        fansPerSec: init,
+        totalFans: init
     }
 }
 
